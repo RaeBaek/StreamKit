@@ -1,0 +1,4 @@
+included:
+  - StreamKit/Sources
+  - Modules/Core/Sources
+  - Modules/Player/Sources
