@@ -1,9 +1,15 @@
+//
+//  App.swift
+//  StreamKit
+//
+//  Created by 백래훈 on 10/21/25.
+//
+
 import Collections
 import Player
 import SwiftUI
 
-@main
-struct StreamKitApp: App {
+struct StreamKitApp2: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
@@ -11,7 +17,7 @@ struct StreamKitApp: App {
     }
 }
 
-struct ContentView: View {
+struct ContentView2: View {
     var deque = Deque([1, 2, 3])
 
     let engine = PlayerEngine()

@@ -38,16 +38,16 @@ let project = Project(
             //            ],
             scripts: [
                 // ✅ SwiftFormat
-                .pre(script: """
-                export PATH="$HOME/.local/share/mise/installs/swiftformat/0.58.5/bin:$PATH"
-                swiftformat .
-                """, name: "SwiftFormat"),
+//                .pre(script: """
+//                export PATH="$HOME/.local/share/mise/installs/swiftformat/0.58.5/bin:$PATH"
+//                swiftformat .
+//                """, name: "SwiftFormat"),
 
                 // ✅ SwiftLint
-                .pre(script: """
-                export PATH="$HOME/.local/share/mise/installs/swiftlint/0.62.1:$PATH"
-                swiftlint --quiet
-                """, name: "SwiftLint"),
+//                .pre(script: """
+//                export PATH="$HOME/.local/share/mise/installs/swiftlint/0.62.1:$PATH"
+//                swiftlint --quiet
+//                """, name: "SwiftLint"),
             ],
             //			scripts: [
             //				.pre(script: "/Users/baek/.local/share/mise/installs/swiftformat/0.58.5/bin/swiftformat .", name: "SwiftFormat"),
